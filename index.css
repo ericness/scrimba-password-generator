@@ -4,7 +4,12 @@ body {
     font-family: 'Inter', sans-serif;
     margin-left: 50px;
     height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+
 
 #headline {
     font-family: Karla;
@@ -40,22 +45,16 @@ body {
     line-height: 24px; /* 150% */
 }
 
-#divider {
-    display: flex;
-    justify-content: center;
-}
-
 #divider-line {
     border: none;
     height: 1px;
-    width: 440px;
+    /* width: 440px; */
     background-color: #2F3E53;
     margin: 40px 0;
 }
 
 #passwords {
     display: flex;
-    justify-content: space-around
 }
 
 .password {
